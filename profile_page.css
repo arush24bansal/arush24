@@ -1,0 +1,101 @@
+.grey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(64,64,64,0.8);
+}
+.grey p{ 
+    color: white;
+}
+.heading{
+    margin-top: 30%;
+}
+.content{
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+}
+
+.h-50:hover .grey{
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+.h-50:hover .grey .heading{
+    color: transparent;
+}
+.h-50:hover .grey .content{
+    opacity: 1;
+}
+#name{
+    background-image: url(background.png);
+    background-size: cover;
+}
+#birthdate{
+    background: url(https://images.unsplash.com/photo-1511948374796-056e8f289f34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+}
+#hometown{
+    background: url(https://buddybits.com/wp-content/uploads/2016/01/10-Reasons-Why-Surat-is-the-Best-City-to-Live-In.jpg);
+    background-size: cover;
+}
+#current{
+    background: url(https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80);
+    background-size: cover;
+}
+#occupation{
+    background: url(https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+}
+#languages{
+    background: url(https://images.unsplash.com/photo-1461374699149-b941f35a8689?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80);
+    background-size: cover;
+}
+
+
+
+@media(max-width:576px){
+    .grey{
+        height: 275px;
+    }
+    .grey p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:576px){
+    .grey{
+        height: 275px;
+    }
+    .grey p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px){
+    .grey{
+        height: 305px;
+    }
+    .grey p{
+        font-size: 25px;
+    }
+}
+
+@media(min-width:1280px){
+    .grey{
+        height: 305px;
+    }
+    .grey p{
+        font-size: 25px;
+    } 
+}
+
+@media(min-width:1440px){
+    .grey{
+        height: 325px;
+    }
+    .grey p{
+        font-size: 28px;
+    } 
+}

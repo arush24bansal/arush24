@@ -1,0 +1,92 @@
+.grey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#dps1{
+    background: url(https://www.yayskool.com/images/school/delhi-public-school-surat-803010622.png);
+    background-size: cover;
+}
+#dps2{
+    background: url(https://content.jdmagicbox.com/comp/surat/30/0261p261std11030/catalogue/delhi-public-school-dumas-road-surat-schools-fihkvz.jpg?clr=#4f3317?fit=around%7C270%3A130&crop=270%3A130%3B%2A%2C%2A);
+    background-size: cover;
+}
+#nmcce{
+    background: url(http://sbmp.ac.in/Common/Uploads/HomeTemplate/9_HPHeader_SBMP2.jpg);
+    background-size: cover;
+}
+#iide{
+    background: url(https://www.soravjain.com/wp-content/uploads/2019/01/IIDE-Classroom-Names-Login-1024x682.jpg);
+    background-size: cover;
+}
+
+.grey:hover{
+    background-color: rgba(64,64,64,0.8);
+    transition: background-color 0.5s;
+}
+.grey{
+    z-index: 10;
+}
+#dps1{
+    z-index: 1;
+}
+.grey p{
+    opacity: 0;
+    color: white;
+    font-weight: bold;
+}
+.grey:hover p{
+    opacity: 1;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+
+
+@media(max-width:576px){
+    .grey{
+        height: 275px;
+    }
+    .grey p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:576px){
+    .grey{
+        height: 275px;
+    }
+    .grey p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px){
+    .grey{
+        height: 305px;
+    }
+    .grey p{
+        font-size: 25px;
+    }
+}
+
+@media(min-width:1280px){
+    .grey{
+        height: 305px;
+    }
+    .grey p{
+        font-size: 25px;
+    } 
+}
+
+@media(min-width:1440px){
+    .grey{
+        height: 325px;
+    }
+    .grey p{
+        font-size: 28px;
+    } 
+}

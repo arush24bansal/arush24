@@ -1,0 +1,79 @@
+#para1{
+    background-color: black;
+}
+#para2{
+    background-color: whitesmoke;
+}
+.grey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#para1 p{
+    color: whitesmoke;
+}
+#para2 p{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+    .grey{
+        height: 365px;
+    }
+    .grey p{
+        font-size: 18px;
+    }
+}
+
+@media(min-width:576px){
+    .grey{
+        height: 275px;
+    }
+    .grey p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px){
+    .grey{
+        height: 305px;
+    }
+    .grey p{
+        font-size: 25px;
+    }
+}
+
+@media(min-width:1280px){
+    .grey{
+        height: 305px;
+    }
+    .grey p{
+        font-size: 25px;
+    } 
+}
+
+@media(min-width:1440px){
+    .grey{
+        height: 325px;
+    }
+    .grey p{
+        font-size: 28px;
+    } 
+}
